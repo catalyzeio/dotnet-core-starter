@@ -1,0 +1,11 @@
+{
+  "name": "dotnet-sample-app",
+  "description": "Sample dotnet application for the Catalyze PaaS platform",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "install": "./install",
+    "start": "./run"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,2 @@
+#!/bin/sh -e
+./dotnet restore && ./dotnet run
