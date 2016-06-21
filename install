@@ -1,10 +1,7 @@
 #!/bin/sh -e
-echo "starting preinstall script"
 
-wget https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/Latest/dotnet-ubuntu-x64.latest.tar.gz
-wget https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/Latest/dotnet-dev-ubuntu-x64.latest.tar.gz
-
-#mkdir -p dotnet
+wget -q https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/Latest/dotnet-ubuntu-x64.latest.tar.gz
+wget -q https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/Latest/dotnet-dev-ubuntu-x64.latest.tar.gz
 
 tar -zxf dotnet-ubuntu-x64.latest.tar.gz
 tar -zxf dotnet-dev-ubuntu-x64.latest.tar.gz
